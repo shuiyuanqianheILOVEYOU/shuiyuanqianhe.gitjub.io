@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML5跑酷小游戏代码</title>
+<link rel="stylesheet" href="kandi.css" type="text/css" media="screen">
+</head>
+<body>
+
+<h3>按空格键跳跃</h3>
+<div class="wrapper">
+
+<canvas id="canvas" width="800" height="480">
+  <p>你的浏览器不支持玩这个游戏所需要的功能。</p>
+  <p>请更新到一个现代浏览器，如谷歌浏览器播放。</p>
+</canvas>
+
+
+<div id="game-over">
+  <a href="javascript:void(0);" class="restart" id="restart">再试一次？</a>
+</div>
+</div>
+
+<script type="text/javascript" src="kandi.js"></script>
+
+</body>
+</html>
